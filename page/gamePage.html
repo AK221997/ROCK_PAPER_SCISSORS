@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <h1>Rock, Paper & Scissor </h1>
+        <div id="buttons">
+            <!-- <label for="gameButtonRock" id="labelIDRock">Rock</label> -->
+            <input type="button" id="idRock" class="gameButtonRock button" value="Rock"></input>
+            <!-- <label for="gameButtonPaper" id="labelIDPaper">Paper</label> -->
+            <input type="button" id="idPaper" class="gameButtonPaper button" value="Paper"></input>
+            <!-- <label for="gameButtonScissor" id="labelIDScissor">Scissor</label> -->
+            <input type="button" id="idScissor" class="gameButtonScissor button" value="Scissor"></input>            
+        </div>
+        <div id="gameResult">
+            <div id="roundResult">
+            <strong>Current Round Result : </strong><span id="currentRoundResult"></span>
+            </div>
+            <div id="scores">
+                <div id="player"><strong>Player Score : </strong><span id="playerScore"></span></div>
+                <div id="computer"><strong>Computer Score : </strong><span id="computerScore"></span></div>
+            </div>
+            <div id="remainingTurns">
+                <strong>Remaining Player Turns:</strong> <span id="remainingPlayerTurn">5</span>
+            </div>
+            <strong>Winner : </strong><span id="finalResult"></span>
+        <div class="restart"></div>
+    </div>
+</body>
+<script src="../js/finalfirstcopy_RefreshPage.js"></script>
+</html>

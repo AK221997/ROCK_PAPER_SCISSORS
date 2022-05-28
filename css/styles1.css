@@ -1,0 +1,67 @@
+* {
+    font-size: 21px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+#main {
+    display: flex;
+    background: rgb(78, 71, 71);
+    flex-direction: column;
+    align-content: center;
+    /* align-self: center; */
+    align-items: center;
+    /* align-items: stretch; */
+    /* height: 100vh; */
+    gap: 15px;
+}
+
+div#welcome {
+    font-size: 41px;
+    margin-top: 30px;
+    color: rgb(136, 231, 238);
+    background: rgb(134, 127, 127);
+    padding: 35px;
+    border-radius: 15px;
+
+}
+
+#play{
+    /* padding: 65px; */
+    background: rgb(134, 127, 127);
+    /* padding: 15px;   */
+    /* width: 100 px; */
+    border-radius: 15px;
+    margin-bottom: 30px;
+    /* width: 70px; */
+    text-align: center;
+}
+
+h3 {
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(114, 120, 173);
+}
+
+.button{
+    background-color: rgb(77, 87, 231);
+    width: 75px;
+    height: 50px;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: rgb(172, 165, 233);
+    cursor: pointer;
+}
